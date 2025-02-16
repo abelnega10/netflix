@@ -1,0 +1,57 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: black;
+}
+
+/* Netflix Logo */
+.logo {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: white;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+/* Sign-In Button */
+.sign-in {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    background: darkred;
+}
